@@ -1,0 +1,18 @@
+{
+  "name": "btx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "btx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.7",
+    "dotenv": "^16.3.2",
+    "web3": "^4.4.0"
+  }
+}
+
