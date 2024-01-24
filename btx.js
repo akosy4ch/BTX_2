@@ -3,15 +3,16 @@ require('dotenv').config();
 
 var ETHEREUM_NETWORK = "sepolia";
 const infuraApiKey = '2e23b3e27eab4efd99ad82e0f5bacfe4';
+//API key infura
 const infuraProvider = `https://${ETHEREUM_NETWORK}.infura.io/v3/${infuraApiKey}`;
-
+//link for infura
 
 const contractAddress = '0xaefC7c529128c4D8739ec0C55478f6e7de5C4482';
-
+//from sepolia scanner from remix
 const privateKey = 'e3d900aee7a7645bcdd5330feb73b732cb38574c76ca9c99e9ad8bdf5dbb64ac';
-
+//metamask private key
 const senderAddress = '0x75E551dCe2512ac68dA61eb224b4A346b7Aed709';
-
+//metamask address
 const web3 = new Web3(infuraProvider);
 
 const contractABI = require("./Contract_ABI.json");
